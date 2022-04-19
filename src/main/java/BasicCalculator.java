@@ -25,7 +25,7 @@ public class BasicCalculator
     }
     public Long dividir (Long number1, Long number2)
     {
-        Long div = Long.valueOf(0);
+        long div = 0L;
 
         try {
             div =  (number1 / number2);
